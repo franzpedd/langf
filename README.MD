@@ -48,6 +48,6 @@ int main(int argc, char* argv[])
     return 0;
 }
 ```
-
+![Screenshot](Example/output.jpg)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
