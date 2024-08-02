@@ -1,0 +1,2 @@
+TAG_HELLO_WORLD = Olá mundo!
+TAG_WITH_ARGUMENTS = Aqui está um número bem legal %d e uma frase não tão legal assim %ls
