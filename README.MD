@@ -2,11 +2,19 @@
 Sometime applications supports multiple languages, sometimes they don't. This library aims to help publishing stuff with multi-language support. Written in C++17 and only using the standart template library this library loads all translation uppon start-up and return's required text based on current set language.
 
 ## Build
-Really this shouldn't be added as a library, so just include langf.h, langf.cpp and langf_translation.h into your project and start using. A header-only version will be on it's way on next-version.
+Include [langf.h](https://github.com/franzpedd/langf/blob/main/langf.h) in your project and in exactly one source file add the following:
+```cpp
+#define LANGF_IMPLEMENTATION
+#include "langf.h"
+```
+on any other source file just include [langf.h](https://github.com/franzpedd/langf/blob/main/langf.h) 
+
 ## Example
 The Examples folder has the structure for the given example (as well as the example itself).
 ```cpp
 #include <iostream>
+
+#define LANGF_IMPLEMENTATION
 #include "langf.h"
 
 int main(int argc, char* argv[])

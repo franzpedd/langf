@@ -1,4 +1,6 @@
 #include <iostream>
+
+#define LANGF_IMPLEMENTATION
 #include "langf.h"
 
 int main(int argc, char* argv[])

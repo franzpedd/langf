@@ -1,2 +1,2 @@
 TAG_HELLO_WORLD = Hello World"
-TAG_WITH_ARGUMENTS = Here is a cool number %d and here a phase not so cool %ls
+TAG_WITH_ARGUMENTS = Here is a cool number %d and here a phrase not so cool %ls

@@ -8,7 +8,7 @@ project "Example"
 
     files
     {
-        "%{wks.location}/langf.h",  "%{wks.location}/langf.cpp", "%{wks.location}/langf_translation.h",
+        "%{wks.location}/langf.h",
         "example.cpp"
     }
 
